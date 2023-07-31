@@ -1,4 +1,4 @@
-* Pinewood Derby Timer Related Files *
+# Pinewood Derby Timer Related Files
 
 This repository contains the code/files required to run a Pinewood Derby Timer using PDT and DerbyNet
 

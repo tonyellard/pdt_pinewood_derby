@@ -1,0 +1,15 @@
+# use these settings in dnsmasq.conf
+
+interface=wlan0
+bind-dynamic
+domain-needed
+bogus-priv
+local=/pinewood.derby/
+address=/race.pinewood.derby/10.42.0.1
+
+server=8.8.8.8
+server=8.8.4.4
+cache-size=1000
+
+
+# once updated, don't forget to restart dnsmasq with sudo systemctl restart dnsmasq
